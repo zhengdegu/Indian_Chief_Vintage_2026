@@ -1,0 +1,13 @@
+node_modules/
+out/
+qa/
+tmp/
+.remotion/
+public/models/
+public/draco/
+public/audio/**/*.wav
+public/audio/*.mp3
+!public/audio/soundtrack.mp3
+*.log
+__pycache__/
+*.py[cod]

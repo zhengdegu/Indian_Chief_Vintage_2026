@@ -1,0 +1,66 @@
+[
+  {
+    "scene": "hero",
+    "intended": "经典，从未停下。二零二六，印第安酋长复古版。",
+    "recognized": [
+      {
+        "text": "经典从未停下",
+        "confidence": 0.39590797
+      },
+      {
+        "text": "02秒印第安酋长复古班",
+        "confidence": 0.44276506
+      }
+    ]
+  },
+  {
+    "scene": "engine",
+    "intended": "一千八百九十毫升排量，四十九度风冷V型双缸。最大扭矩，一百五十六牛米。",
+    "recognized": [
+      {
+        "text": "1,890 ml排量49赌风冷飞行双缸最大扭矩156牛米",
+        "confidence": 0.50250584
+      }
+    ]
+  },
+  {
+    "scene": "craft",
+    "intended": "印第安红，遇见奶油白。深裙边挡泥板，与浓咖啡色独立座椅，勾勒经典轮廓。",
+    "recognized": [
+      {
+        "text": "印第安黄遇见奶油百身裙边挡泥板雨农咖啡色独立座椅勾勒经典轮廓",
+        "confidence": 0.52764076
+      }
+    ]
+  },
+  {
+    "scene": "chassis",
+    "intended": "一千六百二十六毫米轴距，六百八十六毫米座高。低伏姿态，从容延展。",
+    "recognized": [
+      {
+        "text": "1,626 mm轴距686 mm座高的福姿态从容延展",
+        "confidence": 0.50028795
+      }
+    ]
+  },
+  {
+    "scene": "edition",
+    "intended": "斯特吉斯特别版，全球限量一百二十五台。五十六号图形，留下专属印记。",
+    "recognized": [
+      {
+        "text": "斯特几次特别班全球限量120舞台56号图形留下专属印记",
+        "confidence": 0.63751996
+      }
+    ]
+  },
+  {
+    "scene": "closing",
+    "intended": "让经典，在新的旅程中回响。",
+    "recognized": [
+      {
+        "text": "当经典在新的旅程中回响",
+        "confidence": 0.54938096
+      }
+    ]
+  }
+]

@@ -1,0 +1,540 @@
+{
+  "title": "经典，从未停下。",
+  "vehicle": "2026 Indian Chief Vintage — Sturgis, SD Edition",
+  "language": "zh-CN",
+  "fps": 30,
+  "duration": 48.233333333333334,
+  "status": "audio-complete",
+  "narrationDisclosure": "旁白采用 Windows 中文合成语音。",
+  "projectNote": "非官方 3D 概念宣传片。模型依据公开实车照片与官方参数重建；产品配置以厂商发布为准。",
+  "specificationNote": "尺寸及基础动力参数采用官方 2026 Chief Vintage 资料；特别版公告未披露底盘结构变更。",
+  "sources": [
+    {
+      "id": "official-edition",
+      "url": "https://www.indianmotorcycle.co.uk/news/detail/indian-chief-vintage-sturgis/"
+    },
+    {
+      "id": "official-base",
+      "url": "https://www.indianmotorcycle.co.uk/chief-vintage/"
+    },
+    {
+      "id": "cyclenews",
+      "url": "https://www.cyclenews.com/2026/08/article/2026-indian-chief-vintage-sturgis-sd-edition-specs-and-price/"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hero",
+      "start": 0.0,
+      "duration": 6.966666666666667,
+      "eyebrow": "2026 · STURGIS, SD EDITION",
+      "title": "经典，从未停下。",
+      "narration": "经典，从未停下。二零二六，印第安酋长复古版。",
+      "subtitleLines": [
+        "经典，从未停下。",
+        "2026，印第安酋长复古版。"
+      ],
+      "audio": "audio/01-hero.wav",
+      "audioDuration": 5.85,
+      "facts": [],
+      "sources": [
+        "official-edition"
+      ],
+      "spokenSegments": [
+        {
+          "text": "经典，从未停下。",
+          "file": "audio/segments/01a.wav",
+          "subtitle": "经典，从未停下。",
+          "rawDuration": 2.7295,
+          "trimmedLeadingSeconds": 0.045,
+          "duration": 2.235
+        },
+        {
+          "text": "二零二六，印第安酋长复古版。",
+          "file": "audio/segments/01b.wav",
+          "subtitle": "2026，印第安酋长复古版。",
+          "rawDuration": 3.9695,
+          "trimmedLeadingSeconds": 0.035,
+          "duration": 3.485
+        }
+      ],
+      "startFrame": 0,
+      "durationFrames": 209,
+      "speechOffset": 0.65,
+      "speechStart": 0.65,
+      "subtitleCues": [
+        {
+          "text": "经典，从未停下。",
+          "start": 0.65,
+          "end": 2.885,
+          "sceneId": "hero"
+        },
+        {
+          "text": "2026，印第安酋长复古版。",
+          "start": 3.015,
+          "end": 6.5,
+          "sceneId": "hero"
+        }
+      ]
+    },
+    {
+      "id": "engine",
+      "start": 6.966666666666667,
+      "duration": 9.266666666666667,
+      "eyebrow": "THUNDERSTROKE 116",
+      "title": "看得见的力量。",
+      "narration": "一千八百九十毫升排量，四十九度风冷V型双缸。最大扭矩，一百五十六牛米。",
+      "subtitleLines": [
+        "1,890 cc 排量 · 49° 风冷 V 型双缸",
+        "最大扭矩，156 N·m。"
+      ],
+      "audio": "audio/02-engine.wav",
+      "audioDuration": 8.47,
+      "facts": [
+        {
+          "value": "1,890",
+          "unit": "cc",
+          "label": "发动机排量"
+        },
+        {
+          "value": "156",
+          "unit": "N·m",
+          "label": "最大扭矩"
+        },
+        {
+          "value": "49",
+          "unit": "°",
+          "label": "双缸夹角"
+        }
+      ],
+      "sources": [
+        "official-base",
+        "cyclenews"
+      ],
+      "spokenSegments": [
+        {
+          "text": "一千八百九十毫升排量，四十九度风冷V型双缸。",
+          "file": "audio/segments/02a.wav",
+          "subtitle": "1,890 cc 排量 · 49° 风冷 V 型双缸",
+          "rawDuration": 5.837875,
+          "trimmedLeadingSeconds": 0.045,
+          "duration": 5.325
+        },
+        {
+          "text": "最大扭矩，一百五十六牛米。",
+          "file": "audio/segments/02b.wav",
+          "subtitle": "最大扭矩，156 N·m。",
+          "rawDuration": 3.5045,
+          "trimmedLeadingSeconds": 0.045,
+          "duration": 3.015
+        }
+      ],
+      "startFrame": 209,
+      "durationFrames": 278,
+      "speechOffset": 0.32,
+      "speechStart": 7.286666666666667,
+      "subtitleCues": [
+        {
+          "text": "1,890 cc 排量 · 49° 风冷 V 型双缸",
+          "start": 7.286667,
+          "end": 12.611667,
+          "sceneId": "engine"
+        },
+        {
+          "text": "最大扭矩，156 N·m。",
+          "start": 12.741667,
+          "end": 15.756667,
+          "sceneId": "engine"
+        }
+      ]
+    },
+    {
+      "id": "craft",
+      "start": 16.233333333333334,
+      "duration": 9.533333333333333,
+      "eyebrow": "RED. CREAM. ESPRESSO.",
+      "title": "每一处，都有来历。",
+      "narration": "印第安红，遇见奶油白。深裙边挡泥板，与浓咖啡色独立座椅，勾勒经典轮廓。",
+      "subtitleLines": [
+        "印第安红，遇见奶油白。",
+        "深裙边挡泥板与浓咖啡色独立座椅，勾勒经典轮廓。"
+      ],
+      "audio": "audio/03-craft.wav",
+      "audioDuration": 8.76,
+      "facts": [
+        {
+          "value": "Indian Red / Cream",
+          "unit": "",
+          "label": "双色涂装"
+        },
+        {
+          "value": "Espresso",
+          "unit": "",
+          "label": "独立座椅"
+        }
+      ],
+      "sources": [
+        "official-edition"
+      ],
+      "spokenSegments": [
+        {
+          "text": "印第安红，遇见奶油白。",
+          "file": "audio/segments/03a.wav",
+          "subtitle": "印第安红，遇见奶油白。",
+          "rawDuration": 3.3395,
+          "trimmedLeadingSeconds": 0.055,
+          "duration": 2.835
+        },
+        {
+          "text": "深裙边挡泥板，与浓咖啡色独立座椅，勾勒经典轮廓。",
+          "file": "audio/segments/03b.wav",
+          "subtitle": "深裙边挡泥板与浓咖啡色独立座椅，勾勒经典轮廓。",
+          "rawDuration": 6.3045,
+          "trimmedLeadingSeconds": 0.045,
+          "duration": 5.795
+        }
+      ],
+      "startFrame": 487,
+      "durationFrames": 286,
+      "speechOffset": 0.32,
+      "speechStart": 16.553333333333335,
+      "subtitleCues": [
+        {
+          "text": "印第安红，遇见奶油白。",
+          "start": 16.553333,
+          "end": 19.388333,
+          "sceneId": "craft"
+        },
+        {
+          "text": "深裙边挡泥板与浓咖啡色独立座椅，",
+          "start": 19.518333,
+          "end": 23.518333,
+          "sceneId": "craft"
+        },
+        {
+          "text": "勾勒经典轮廓。",
+          "start": 23.518333,
+          "end": 25.313333,
+          "sceneId": "craft"
+        }
+      ]
+    },
+    {
+      "id": "chassis",
+      "start": 25.766666666666666,
+      "duration": 8.466666666666667,
+      "eyebrow": "LOW. LONG. COMPOSED.",
+      "title": "从容，自成姿态。",
+      "narration": "一千六百二十六毫米轴距，六百八十六毫米座高。低伏姿态，从容延展。",
+      "subtitleLines": [
+        "1,626 mm 轴距 · 686 mm 座高",
+        "低伏姿态，从容延展。"
+      ],
+      "audio": "audio/04-chassis.wav",
+      "audioDuration": 7.69,
+      "facts": [
+        {
+          "value": "1,626",
+          "unit": "mm",
+          "label": "轴距"
+        },
+        {
+          "value": "686",
+          "unit": "mm",
+          "label": "座高"
+        }
+      ],
+      "sources": [
+        "official-base"
+      ],
+      "spokenSegments": [
+        {
+          "text": "一千六百二十六毫米轴距，六百八十六毫米座高。",
+          "file": "audio/segments/04a.wav",
+          "subtitle": "1,626 mm 轴距 · 686 mm 座高",
+          "rawDuration": 5.4545,
+          "trimmedLeadingSeconds": 0.045,
+          "duration": 4.965
+        },
+        {
+          "text": "低伏姿态，从容延展。",
+          "file": "audio/segments/04b.wav",
+          "subtitle": "低伏姿态，从容延展。",
+          "rawDuration": 3.0745,
+          "trimmedLeadingSeconds": 0.035,
+          "duration": 2.595
+        }
+      ],
+      "startFrame": 773,
+      "durationFrames": 254,
+      "speechOffset": 0.32,
+      "speechStart": 26.086666666666666,
+      "subtitleCues": [
+        {
+          "text": "1,626 mm 轴距 · 686 mm 座高",
+          "start": 26.086667,
+          "end": 31.051667,
+          "sceneId": "chassis"
+        },
+        {
+          "text": "低伏姿态，从容延展。",
+          "start": 31.181667,
+          "end": 33.776667,
+          "sceneId": "chassis"
+        }
+      ]
+    },
+    {
+      "id": "edition",
+      "start": 34.233333333333334,
+      "duration": 9.0,
+      "eyebrow": "LIMITED TO 125 MOTORCYCLES",
+      "title": "为相聚，留下印记。",
+      "narration": "斯特吉斯特别版，全球限量一百二十五台。五十六号图形，留下专属印记。",
+      "subtitleLines": [
+        "Sturgis 特别版，全球限量 125 台。",
+        "56 号图形，留下专属印记。"
+      ],
+      "audio": "audio/05-edition.wav",
+      "audioDuration": 8.23,
+      "facts": [
+        {
+          "value": "125",
+          "unit": "台",
+          "label": "全球限量"
+        },
+        {
+          "value": "56",
+          "unit": "",
+          "label": "特别版侧盖图形"
+        }
+      ],
+      "sources": [
+        "official-edition"
+      ],
+      "spokenSegments": [
+        {
+          "text": "斯特吉斯特别版，全球限量一百二十五台。",
+          "file": "audio/segments/05a.wav",
+          "subtitle": "Sturgis 特别版，全球限量 125 台。",
+          "rawDuration": 5.1295,
+          "trimmedLeadingSeconds": 0.045,
+          "duration": 4.625
+        },
+        {
+          "text": "五十六号图形，留下专属印记。",
+          "file": "audio/segments/05b.wav",
+          "subtitle": "56 号图形，留下专属印记。",
+          "rawDuration": 3.9795,
+          "trimmedLeadingSeconds": 0.045,
+          "duration": 3.475
+        }
+      ],
+      "startFrame": 1027,
+      "durationFrames": 270,
+      "speechOffset": 0.32,
+      "speechStart": 34.553333333333335,
+      "subtitleCues": [
+        {
+          "text": "Sturgis 特别版，",
+          "start": 34.553333,
+          "end": 37.723333,
+          "sceneId": "edition"
+        },
+        {
+          "text": "全球限量 125 台。",
+          "start": 37.723333,
+          "end": 39.178333,
+          "sceneId": "edition"
+        },
+        {
+          "text": "56 号图形，留下专属印记。",
+          "start": 39.308333,
+          "end": 42.783333,
+          "sceneId": "edition"
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "start": 43.233333333333334,
+      "duration": 5.0,
+      "eyebrow": "INDIAN MOTORCYCLE",
+      "title": "让经典，继续回响。",
+      "narration": "让经典，在新的旅程中回响。",
+      "subtitleLines": [
+        "让经典，在新的旅程中回响。"
+      ],
+      "audio": "audio/06-closing.wav",
+      "audioDuration": 3.425,
+      "facts": [],
+      "sources": [],
+      "spokenSegments": [
+        {
+          "text": "让经典，在新的旅程中回响。",
+          "file": "audio/segments/06a.wav",
+          "subtitle": "让经典，在新的旅程中回响。",
+          "rawDuration": 3.9245,
+          "trimmedLeadingSeconds": 0.035,
+          "duration": 3.425
+        }
+      ],
+      "startFrame": 1297,
+      "durationFrames": 150,
+      "speechOffset": 0.32,
+      "speechStart": 43.553333333333335,
+      "subtitleCues": [
+        {
+          "text": "让经典，在新的旅程中回响。",
+          "start": 43.553333,
+          "end": 46.978333,
+          "sceneId": "closing"
+        }
+      ]
+    }
+  ],
+  "tts": {
+    "provider": "Microsoft Windows offline speech synthesis",
+    "model": "System.Speech.Synthesis",
+    "voice": "Microsoft Kangkang",
+    "rate": -1,
+    "format": "wav",
+    "generated": true,
+    "requestedProvider": "OpenAI",
+    "fallbackReason": "OpenAI API returned HTTP 429 credit_balance_exhausted; no OpenAI speech was generated."
+  },
+  "durationInFrames": 1447,
+  "subtitleCues": [
+    {
+      "text": "经典，从未停下。",
+      "start": 0.65,
+      "end": 2.885,
+      "sceneId": "hero"
+    },
+    {
+      "text": "2026，印第安酋长复古版。",
+      "start": 3.015,
+      "end": 6.5,
+      "sceneId": "hero"
+    },
+    {
+      "text": "1,890 cc 排量 · 49° 风冷 V 型双缸",
+      "start": 7.286667,
+      "end": 12.611667,
+      "sceneId": "engine"
+    },
+    {
+      "text": "最大扭矩，156 N·m。",
+      "start": 12.741667,
+      "end": 15.756667,
+      "sceneId": "engine"
+    },
+    {
+      "text": "印第安红，遇见奶油白。",
+      "start": 16.553333,
+      "end": 19.388333,
+      "sceneId": "craft"
+    },
+    {
+      "text": "深裙边挡泥板与浓咖啡色独立座椅，",
+      "start": 19.518333,
+      "end": 23.518333,
+      "sceneId": "craft"
+    },
+    {
+      "text": "勾勒经典轮廓。",
+      "start": 23.518333,
+      "end": 25.313333,
+      "sceneId": "craft"
+    },
+    {
+      "text": "1,626 mm 轴距 · 686 mm 座高",
+      "start": 26.086667,
+      "end": 31.051667,
+      "sceneId": "chassis"
+    },
+    {
+      "text": "低伏姿态，从容延展。",
+      "start": 31.181667,
+      "end": 33.776667,
+      "sceneId": "chassis"
+    },
+    {
+      "text": "Sturgis 特别版，",
+      "start": 34.553333,
+      "end": 37.723333,
+      "sceneId": "edition"
+    },
+    {
+      "text": "全球限量 125 台。",
+      "start": 37.723333,
+      "end": 39.178333,
+      "sceneId": "edition"
+    },
+    {
+      "text": "56 号图形，留下专属印记。",
+      "start": 39.308333,
+      "end": 42.783333,
+      "sceneId": "edition"
+    },
+    {
+      "text": "让经典，在新的旅程中回响。",
+      "start": 43.553333,
+      "end": 46.978333,
+      "sceneId": "closing"
+    }
+  ],
+  "soundtrack": "audio/soundtrack.wav",
+  "narrationTrack": "audio/narration.wav",
+  "musicTrack": "audio/music.wav",
+  "music": {
+    "type": "original procedural synthesis",
+    "composer": "Project procedural audio generation",
+    "description": "Quiet cinematic synth pads and a restrained 74 BPM pulse; no engine recording or sampled commercial music.",
+    "duckedUnderSpeech": true
+  },
+  "audioQA": {
+    "narration": {
+      "input_i": "-20.10",
+      "input_tp": "-1.50",
+      "input_lra": "4.70",
+      "input_thresh": "-30.44",
+      "output_i": "-17.32",
+      "output_tp": "-1.50",
+      "output_lra": "3.20",
+      "output_thresh": "-27.72",
+      "normalization_type": "dynamic",
+      "target_offset": "0.32"
+    },
+    "music": {
+      "input_i": "-30.98",
+      "input_tp": "-20.43",
+      "input_lra": "1.60",
+      "input_thresh": "-41.21",
+      "output_i": "-16.88",
+      "output_tp": "-6.10",
+      "output_lra": "1.20",
+      "output_thresh": "-27.04",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.12"
+    },
+    "soundtrack": {
+      "input_i": "-17.07",
+      "input_tp": "-1.19",
+      "input_lra": "4.50",
+      "input_thresh": "-27.88",
+      "output_i": "-17.03",
+      "output_tp": "-1.50",
+      "output_lra": "3.20",
+      "output_thresh": "-27.79",
+      "normalization_type": "dynamic",
+      "target_offset": "0.03"
+    },
+    "speechGain": 1.202264434617413,
+    "sampleRate": 48000,
+    "channels": 2,
+    "subtitleCount": 13,
+    "allCuesMeasuredFromIndividualSpeechFiles": true,
+    "humanListeningPerformed": false
+  }
+}

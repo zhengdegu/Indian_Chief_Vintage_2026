@@ -1,0 +1,29 @@
+{
+  "name": "chief-vintage-film",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "assets": "node scripts/sync-assets.cjs",
+    "captions": "python scripts/sync-captions.py",
+    "studio": "remotion studio src/index.ts --port=3001",
+    "render": "remotion render src/index.ts ChiefFilm out/Chief_Vintage_2026_CN_1080p.mp4 --gl=angle --concurrency=2 --codec=h264 --crf=18 --pixel-format=yuv420p --audio-codec=aac --audio-bitrate=192k --timeout=90000",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/captions": "4.0.535",
+    "@remotion/cli": "4.0.535",
+    "@remotion/media": "4.0.535",
+    "@remotion/three": "4.0.535",
+    "@remotion/transitions": "4.0.535",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.535",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/three": "^0.180.0",
+    "typescript": "^5.9.0"
+  }
+}
