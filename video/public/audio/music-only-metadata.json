@@ -1,0 +1,69 @@
+{
+  "title": "Ride After Dark",
+  "style": "Original dark synthwave / electronic rock instrumental",
+  "durationSeconds": 48,
+  "bpm": 120,
+  "meter": "4/4",
+  "bars": 24,
+  "key": "E minor",
+  "sampleRate": 48000,
+  "channels": 2,
+  "wavBitDepth": 24,
+  "mp3Bitrate": 320000,
+  "containsSpeech": false,
+  "containsEngineRecordings": false,
+  "provenance": "Original notes and procedural synthesis. No third-party music, samples, or voices. Created locally without an API.",
+  "generator": "audio-tools/create_music_only.py",
+  "seed": 20261015,
+  "sectionCues": [
+    {
+      "start": 0,
+      "duration": 8,
+      "name": "Ignition"
+    },
+    {
+      "start": 8,
+      "duration": 8,
+      "name": "Night drive"
+    },
+    {
+      "start": 16,
+      "duration": 8,
+      "name": "Chrome and leather"
+    },
+    {
+      "start": 24,
+      "duration": 8,
+      "name": "Low and long"
+    },
+    {
+      "start": 32,
+      "duration": 8,
+      "name": "Full throttle"
+    },
+    {
+      "start": 40,
+      "duration": 8,
+      "name": "Ride after dark"
+    }
+  ],
+  "arrangement": [
+    "Deep kick and layered snare",
+    "Stereo hats and crashes",
+    "Syncopated mono-compatible sub bass",
+    "Detuned overdriven power chords",
+    "Stereo analog lead and arpeggios",
+    "Scene-cut risers, drum fills, final tonic ring-out"
+  ],
+  "wavMeasurement": {
+    "integratedLUFS": -13.03,
+    "truePeakDBTP": -1.54,
+    "loudnessRangeLU": 1.7
+  },
+  "mp3Measurement": {
+    "integratedLUFS": -13.03,
+    "truePeakDBTP": -1.33,
+    "loudnessRangeLU": 1.7
+  },
+  "qualityChecks": "Measured with FFmpeg loudnorm. Synthesis and arrangement inspected in source; no claim of human listening."
+}

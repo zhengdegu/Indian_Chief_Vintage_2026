@@ -6,7 +6,7 @@
 
 仓库包含网页源码、约 3.9 MB 的 GLB 模型、内嵌纹理、本地 Draco 解码器与页面图片。克隆后可独立运行，无需安装 Blender。
 
-新增 [中文 3D 宣传片工程](video/README.md)：48 秒、1080p、六组动态镜头，包含可编辑参数字幕、中文合成旁白和原创氛围音乐。视频工程位于 `video/`，独立运行，不影响网页。
+新增 [3D 纯音乐宣传片工程](video/README.md)：48 秒、1080p、30 fps，六组各 8 秒的动态镜头与可编辑参数动效，配原创电子摇滚 / synthwave 音乐《Ride After Dark》（120 BPM，E minor）。默认版本无旁白和讲解字幕，无需 API。视频工程位于 `video/`，独立运行，不影响网页。
 
 ```powershell
 git clone https://github.com/zhengdegu/Indian_Chief_Vintage_2026.git

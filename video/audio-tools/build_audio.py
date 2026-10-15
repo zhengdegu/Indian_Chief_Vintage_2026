@@ -90,11 +90,13 @@ def measure(path):
 
 def main():
     manifest = json.loads((ROOT / 'content.json').read_text(encoding='utf-8'))
+    manifest['variant'] = 'narrated'
     cursor = 0
     cues = []
     speech_arrays = []
     minimum_seconds = [6.0, 8.0, 8.0, 7.0, 7.0, 5.0]
     for index, scene in enumerate(manifest['scenes']):
+        scene.setdefault('audio', f'audio/{index + 1:02d}-{scene["id"]}.wav')
         parts = []
         local_cues = []
         offset = 0

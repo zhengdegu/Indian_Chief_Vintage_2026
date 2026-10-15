@@ -8,6 +8,7 @@ public/draco/
 public/audio/**/*.wav
 public/audio/*.mp3
 !public/audio/soundtrack.mp3
+!public/audio/ride-after-dark.mp3
 *.log
 __pycache__/
 *.py[cod]

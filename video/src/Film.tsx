@@ -27,7 +27,7 @@ export const Film = () => {
     <Brand/>
     <div style={{position:'absolute',top:75,right:120,font:'18px Arial',color:'#bda37b',letterSpacing:4}}>STURGIS, SD <span style={{paddingLeft:30,color:'#716b62'}}>0{index+1} / 06</span></div>
     <div style={{position:'absolute',bottom:0,left:0,height:3,width:`${frame/(filmFrames-1)*100}%`,background:'#bda37b66'}}/>
-    {content.soundtrack&&<Audio name="中文旁白 · 原创氛围配乐" src={staticFile(content.soundtrack)} premountFor={fps}/>}
+    {content.soundtrack&&<Audio name={content.variant==='music-only'?'配乐 · RIDE AFTER DARK':'中文旁白 · 原创氛围配乐'} src={staticFile(content.soundtrack)} premountFor={fps}/>}
     <AbsoluteFill style={{background:'#111110',pointerEvents:'none',opacity:interpolate(frame,[0,20,filmFrames-20,filmFrames-1],[1,0,0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'})}}/>
   </AbsoluteFill>;
 };

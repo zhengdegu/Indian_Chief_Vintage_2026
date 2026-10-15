@@ -6,7 +6,7 @@
     "assets": "node scripts/sync-assets.cjs",
     "captions": "python scripts/sync-captions.py",
     "studio": "remotion studio src/index.ts --port=3001",
-    "render": "remotion render src/index.ts ChiefFilm out/Chief_Vintage_2026_CN_1080p.mp4 --gl=angle --concurrency=2 --codec=h264 --crf=18 --pixel-format=yuv420p --audio-codec=aac --audio-bitrate=192k --timeout=90000",
+    "render": "remotion render src/index.ts ChiefFilm out/Chief_Vintage_2026_Music_1080p.mp4 --gl=angle --concurrency=2 --codec=h264 --crf=18 --pixel-format=yuv420p --audio-codec=aac --audio-bitrate=320k --timeout=90000",
     "check": "tsc --noEmit"
   },
   "dependencies": {
